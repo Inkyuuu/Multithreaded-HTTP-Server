@@ -1,5 +1,7 @@
 This directory contains source code and other files a Multithreaded HTTP Server.
 
+Please run this program in a **LINUX** environment. 
+
 To run, navigate to the directory in your terminal and type 'make' to compile the program. Next type './httpserver port' where port is the desired port number in which you'd like the server to listen to incoming connections. You may also include an option '-t threads' where threads indicates the number of threads you'd like to initialize. By default, this value is 4. 
 
 You may pipe HTTP requests however you'd like, using curl is recommended. This HTTP server has two methods, PUT and GET, which have the following format:
