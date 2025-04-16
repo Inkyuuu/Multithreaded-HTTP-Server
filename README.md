@@ -1,9 +1,4 @@
-#Assignment 4 directory
-
-This directory contains source code and other files for Assignment 4, a Multithreaded HTTP Server.
-
-Use this README document to store notes about design, testing, and
-questions you have while developing your assignment.
+This directory contains source code and other files a Multithreaded HTTP Server.
 
 To run, navigate to the directory in your terminal and type 'make' to compile the program. Next type './httpserver port' where port is the desired port number in which you'd like the server to listen to incoming connections. You may also include an option '-t threads' where threads indicates the number of threads you'd like to initialize. By default, this value is 4. 
 
